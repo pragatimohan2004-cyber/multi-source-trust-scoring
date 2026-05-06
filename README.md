@@ -1,8 +1,8 @@
-# 🧠 AI & Mental Health — Multi-Source Scraping + Trust Scoring System
+# AI & Mental Health — Multi-Source Scraping + Trust Scoring System
 
 ---
 
-## 🚀 Overview
+## Overview
 
 In the domain of **AI in Mental Health**, information varies widely in credibility — from peer-reviewed research to influencer-driven content.
 
@@ -17,7 +17,7 @@ This project builds a **multi-source data pipeline** that:
 
 ---
 
-## 🎯 Objective
+## Objective
 
 * Collect data from **3 blogs, 2 YouTube videos, 1 PubMed paper**
 * Extract metadata + content
@@ -27,7 +27,7 @@ This project builds a **multi-source data pipeline** that:
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```mermaid
 flowchart TD
@@ -47,7 +47,7 @@ flowchart TD
 
 ---
 
-## ⚙️ Pipeline Flow
+## Pipeline Flow
 
 ```text
 Collection → Cleaning → Structuring → Feature Extraction → Trust Scoring → Output
@@ -67,7 +67,7 @@ Collection → Cleaning → Structuring → Feature Extraction → Trust Scoring
 
 ---
 
-## 🧩 Component Design
+## Component Design
 
 ```mermaid
 flowchart LR
@@ -89,7 +89,7 @@ flowchart LR
 
 ---
 
-## 🧠 Trust Scoring System
+## Trust Scoring System
 
 ### Formula
 
@@ -105,7 +105,7 @@ Trust Score =
 
 ---
 
-## 🔍 Scoring Logic Flow
+## Scoring Logic Flow
 
 ```mermaid
 flowchart TD
@@ -129,22 +129,22 @@ flowchart TD
 
 ---
 
-## 📊 Trust Score Results
+## Trust Score Results
 
 ### Ranked Output Table
 
 | Rank | Source Title | Type | Score | Language | Spam |
 |------|-------------|------|-------|----------|------|
-| 🥇 1 | The therapeutic effectiveness... | PubMed | **0.860** | en | ✅ No |
-| 🥈 2 | AI-Mental Health Is Coming... | Blog | **0.833** | en | ✅ No |
-| 🥉 3 | The AI therapist will see you now... | Blog | **0.754** | en | ✅ No |
+| 1 | The therapeutic effectiveness... | PubMed | **0.860** | en | ✅ No |
+| 2 | AI-Mental Health Is Coming... | Blog | **0.833** | en | ✅ No |
+| 3 | The AI therapist will see you now... | Blog | **0.754** | en | ✅ No |
 | 4 | AI and the Future of Mental Health... | YouTube | **0.606** | en | ✅ No |
 | 5 | Can AI help with mental health? | Blog | **0.511** | en | ✅ No |
 | 6 | Can AI Really Help With Mental Health | YouTube | **0.445** | en | ✅ No |
 
 ---
 
-### 📈 Trust Score Visualization
+### Trust Score Visualization
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" width="720" height="340" font-family="sans-serif" font-size="13">
   <rect width="720" height="340" fill="#1a1a2e" rx="10"/>
@@ -185,7 +185,7 @@ flowchart TD
 
 ---
 
-## 📌 Key Insights
+## Key Insights
 
 * **PubMed ranks highest** due to peer review, credentialed authors, and structured citations
 * **Blogs fall into mid-tier (~0.75)** — credible authors but less rigorous than journals
@@ -195,7 +195,7 @@ flowchart TD
 
 ---
 
-## 🛡️ Abuse Prevention Logic
+## Abuse Prevention Logic
 
 | Threat | Detection | Response |
 |---|---|---|
@@ -208,7 +208,7 @@ flowchart TD
 
 ---
 
-## ⚠️ Edge Cases Handled
+## Edge Cases Handled
 
 | Edge Case | Handling |
 |---|---|
@@ -223,7 +223,7 @@ flowchart TD
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 * Cannot verify **truth**, only **credibility signals**
 * Keyword-based citation detection is a proxy, not true reference counting
@@ -234,7 +234,7 @@ flowchart TD
 
 ---
 
-## 🚨 Where This System Fails
+## Where This System Fails
 
 ```mermaid
 flowchart TD
@@ -247,7 +247,7 @@ flowchart TD
 
 ---
 
-## 📦 Dataset
+## Dataset
 
 | Source Type | Count |
 |-------------|-------|
@@ -258,7 +258,7 @@ flowchart TD
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Assignment/
@@ -282,7 +282,7 @@ Assignment/
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 ```bash
 # Install dependencies
@@ -300,7 +300,7 @@ python scoring/trust_score.py
 
 ---
 
-## 📤 Output Files
+## Output Files
 
 ```
 output/
@@ -312,7 +312,7 @@ output/
 
 ---
 
-## 🧠 Design Philosophy
+## Design Philosophy
 
 This system intentionally prioritizes:
 
@@ -322,7 +322,7 @@ This system intentionally prioritizes:
 
 ---
 
-## 🏁 Final Takeaway
+## Final Takeaway
 
 > Credibility is multi-dimensional — not binary.
 
@@ -330,7 +330,7 @@ A source is not simply "true" or "false". It exists on a spectrum shaped by auth
 
 ---
 
-## 👤 Author
+## Author
 
 **Pragati Mohan**  
 AI / Systems Thinking / Research-Oriented Engineering
