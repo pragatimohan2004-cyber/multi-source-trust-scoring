@@ -1,0 +1,25 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Output (optional - keep if you ONLY want sample output tracked)
+# Uncomment below if you want to ignore all outputs except one file
+# output/*
+# !output/sample_output.json
